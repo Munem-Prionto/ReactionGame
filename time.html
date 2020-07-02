@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R E A C T</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"> REACT</a></h1>
+    </header>
+
+    <div class="container">
+        <section class="mode">
+            <p class="mode-name">TIME MODE</p>
+        </section>
+        <section class="time">
+            <div>TIME LEFT <span class="colon">:</span></div>
+            <div><span class="timeValue"> 180</span> sec</div>
+            
+        </section>
+        <section class="life"> 
+            <div class="img-container">
+                <img src="heart.png" alt="" srcset="" class="img-heart">
+                <img src="heart.png" alt="" srcset="" class="img-heart">
+                <img src="heart.png" alt="" srcset="" class="img-heart">
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="circle"><p class="circle-text"> T A P !</p></div>
+        </section>
+
+        <section class="score">
+            <p class="score-currentScore">SCORE : 0</p>
+            <p class="score-highScore">PERSONAL BEST : 0</p>
+        </section>
+    </div>
+
+    <div class="gameover hide">
+       
+        <div class="gameover-txt">GAMEOVER :(</div>
+
+        <section class="score stats">
+            <p class="score-currentScore gameover-score">SCORE : 0</p>
+            <p class="score-highScore gameover-highScore">PERSONAL BEST : 0</p>
+        </section>
+        <div class=""><a href="index.html" class="restart-btn">RESTART</a></div>
+    </div>
+
+    <script src="time.js"></script>
+</body>
+<footer><a href="https://github.com/Munem-Prionto">Munem Prionto</a></footer>
+</html>

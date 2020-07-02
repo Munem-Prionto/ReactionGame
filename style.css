@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 10px;
+}
+body {
+    color: white;
+    overflow-x: hidden;
+    background-color: #222;
+    width: 100vw;
+    height: 90vh;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2rem;
+    color: white;
+}
+
+.time {
+
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+.time div {
+    display: inline-block;
+}
+.timeValue {
+    letter-spacing: inherit;
+}
+.mode {
+    font-weight: bold;
+    margin: 2rem 0px;
+    letter-spacing: .5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.container {
+ /*   border: 1px solid pink;  */
+
+    width: 60%;
+    margin: auto;
+  
+}
+
+.img-container {
+  /*   border: solid 1px orangered;  */
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0px;
+   
+}
+
+.img-heart {
+    margin:1rem;
+    display: block;
+    width: 2rem;
+}
+.main {
+  /*  border: 2px solid greenyellow;  */
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0px;
+    border-radius: 100%;
+    background-color: white;
+    width: 22rem;
+    height: 22rem;
+}
+/* TOOGLE JS */
+.tap {
+    color: white;
+  background-color: red; 
+}
+.display-none {
+   display: none;
+}
+.text-red {
+    color: red;
+}
+/* TOOGLE JS */
+
+.score {
+    letter-spacing: .5rem;
+    text-align: center;
+    font-size: 2rem;
+ /*    border: 2px solid orange; */
+    margin-top: 1rem;
+}
+.score-currentScore {
+    font-size: 3rem;
+}
+
+.score > p {
+    padding: 1rem 0px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: .4rem 0px;
+    background-color: #444;
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+a:visited  {
+    color: white;
+}
+
+
+.gameover {
+    width: 60%;
+    margin: auto;
+    
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+  
+}
+.gameover-txt {
+    font-weight: bold;
+    letter-spacing: .5rem;
+    padding: 15rem 0px 2rem 0px;
+    font-size: 3.3rem;
+   
+}
+.restart-btn {
+    background-color: #555;
+    padding: 1.2rem 2.2rem;
+    border-radius: 4px;
+    font-size: 2rem;
+
+}
+.restart-btn:hover {
+        cursor: pointer;
+        background-color: #333
+}
+.stats {
+    padding: 3rem;
+}
+@media only screen and (max-width: 800px) {
+    :root {
+        font-size: 9px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
+    .gameover {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .gameover-txt {
+        padding: 2rem 0px;
+    }
+
+}
+@media only screen and (max-width: 670px) {
+
+    .colon {
+        display: none;
+    }
+    .time div {
+        display: block;
+        padding: 1rem 0px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    :root {
+        font-size: 7px;
+    }
+
+}
+.hide {
+    display: none;
+}
