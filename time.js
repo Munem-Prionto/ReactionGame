@@ -18,7 +18,7 @@ const correct = new Audio('correct.mp3');
 const wrong = new Audio('wrong.mp3');
 
 //////////STATS
-var lvlSpeed = 420;
+var lvlSpeed = 480;
 var point = 0;
 var check = [];
 var timehS;
